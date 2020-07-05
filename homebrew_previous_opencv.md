@@ -105,6 +105,31 @@ apple:/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core|opencv-4.2.0
 ==> Downloading https://homebrew.bintray.com/bottles/cmake-3.16.5.catalina.bottle.tar.gz
 ```
 
+* Below are all the dependencies installed as per the requirement of `opencv-4.2.0`. Some of the dependencies already installed may have to be downgraded as a part of this process. For my setup, below are the dependencies which were downgraded.
+
+```bash
+https://homebrew.bintray.com/bottles/gcc-9.2.0_3.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/openblas-0.3.9.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/suite-sparse-5.7.1.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/freetype-2.10.1.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/libffi-3.2.1.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/p11-kit-0.23.20.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/openssl%401.1-1.1.1d.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/sqlite-3.31.1.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/python-3.7.7.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/icu4c-64.2.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/harfbuzz-2.6.4.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/little-cms2-2.9.catalina.bottle.1.tar.gz
+https://homebrew.bintray.com/bottles/x264-r2917_1.catalina.bottle.1.tar.gz
+https://homebrew.bintray.com/bottles/ffmpeg-4.2.2_2.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/numpy-1.18.1_1.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/ilmbase-2.4.1.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/openexr-2.4.1.catalina.bottle.tar.gz
+https://homebrew.bintray.com/bottles/opencv-4.2.0_3.catalina.bottle.tar.gz
+
+==> Installing dependencies for opencv: gcc, openblas, suite-sparse, freetype, libffi, p11-kit, openssl@1.1, sqlite, python, icu4c, harfbuzz, little-cms2, x264, ffmpeg, numpy, ilmbase and openexr
+```
+
 * Stop updates using `pin`
 
 Once the installation is completed, we can set the `pin` option to prevent
